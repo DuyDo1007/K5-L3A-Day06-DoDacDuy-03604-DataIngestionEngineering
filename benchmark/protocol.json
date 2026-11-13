@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "top_k": 3,
+  "embedding": {
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "max_tokens": 512
+  },
+  "strategies": {
+    "A": {"chunking": "fixed_size", "chunk_size": 700, "overlap": 100},
+    "B": {"chunking": "section", "chunk_size": 1800, "overlap": 0},
+    "C": {"chunking": "section", "chunk_size": 1800, "overlap": 0, "filter": "source_type"}
+  },
+  "selection": "Maximize dev Evidence Hit@3, then dev Hit@1, then minimize chunks. Break remaining ties in A/B/C order. Record selection before issuing test queries.",
+  "coherence_sample": "Sort source unit IDs, take every third entry (starting at index zero), and select the first chunk covering offset 0 from each selected unit for each strategy.",
+  "history": "The initial 5 test questions were exposed during the first review. This run uses 5 new questions t01–t05 from the test documents. No test output from these questions was used to choose model, chunk settings, filters or the selection rule."
+}

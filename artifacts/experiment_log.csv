@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,700,100,document_id;source;source_urls;page;section;source_type;category;language,none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,Cửa sổ nhỏ có thể bắt evidence cục bộ và tăng độ phủ.,8/15,11/15,4/5,4/5,"90 chunks, ingest 3.163s, max 201 tokens, 0 API cost"
+B,section,1800,0,document_id;source;source_urls;page;section;source_type;category;language,none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,Giữ biên đoạn có thể tăng tính tự chứa và giảm số chunk.,6/15,10/15,2/5,4/5,"33 chunks, ingest 2.898s, max 462 tokens, 0 API cost"
+C,section,1800,0,document_id;source;source_urls;page;section;source_type;category;language,source_type when requested,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,"Giữ chunk B, giới hạn truy vấn có phạm vi nguồn rõ có thể giảm nhiễu.",9/15,10/15,3/5,5/5,"33 chunks, ingest 2.661s, max 462 tokens, 0 API cost"

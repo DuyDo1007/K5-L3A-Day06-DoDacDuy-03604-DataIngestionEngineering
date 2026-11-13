@@ -1,0 +1,597 @@
+{
+  "corpus_title": "Đại học Bách khoa Hà Nội — bộ tri thức tóm lược",
+  "language": "vi",
+  "accessed_at": "2026-11-13",
+  "content_unit_definition": "Mỗi heading cấp 2 và thân tương ứng tạo một đơn vị theo thứ tự trong file. Số ký tự đo sau chuẩn hóa NFC và khoảng trắng, bỏ heading, dòng dẫn nguồn và dòng trống đầu/cuối. Ranh giới tính theo dòng 1-based, gồm heading và dòng dẫn nguồn.",
+  "reuse_note": "Corpus là bản tóm lược, không kèm tài liệu gốc. Đỗ Đắc Duy xác nhận được dùng bản tóm lược và trace để nộp lab. Repo chưa kèm căn cứ giấy phép tái phân phối nguồn gốc.",
+  "documents": [
+    {
+      "title": "Tổng quan và bối cảnh",
+      "category": "overview",
+      "language": "vi",
+      "source_id": "hust-01",
+      "source_path_or_url": "corpus/01-tong-quan.md",
+      "pages": [
+        {
+          "id": "hust-01-01",
+          "heading": "Unit 01 — Tên gọi, vị trí và vai trò",
+          "start_line": 3,
+          "end_line": 10,
+          "normalized_content_characters": 1588,
+          "source": "https://hust.edu.vn/uploads/sys/tuyen-sinh/2023_06/thong-tin-tuyen-sinh-dai-hoc-2026f.pdf",
+          "source_urls": [
+            "https://hust.edu.vn/uploads/sys/tuyen-sinh/2023_06/thong-tin-tuyen-sinh-dai-hoc-2026f.pdf",
+            "https://hust.edu.vn/vi/about/tong-quan.html",
+            "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html"
+          ],
+          "source_type": "admissions"
+        },
+        {
+          "id": "hust-01-02",
+          "heading": "Unit 02 — Từ Đông Dương học xá đến khuôn viên Bách khoa",
+          "start_line": 12,
+          "end_line": 19,
+          "normalized_content_characters": 1734,
+          "source": "https://hust.edu.vn/vi/about/tong-quan.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/about/tong-quan.html",
+            "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html"
+          ],
+          "source_type": "institutional"
+        },
+        {
+          "id": "hust-01-03",
+          "heading": "Unit 03 — Bản sắc học thuật và cộng đồng",
+          "start_line": 21,
+          "end_line": 28,
+          "normalized_content_characters": 1784,
+          "source": "https://hust.edu.vn/vi/about/tong-quan.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/about/tong-quan.html",
+            "https://hust.edu.vn/vi/news/tin-tuc-su-kien/ngay-tro-ve-am-ap-cua-cac-the-he-cuu-giao-chuc-bach-khoa-656065.html"
+          ],
+          "source_type": "institutional"
+        }
+      ]
+    },
+    {
+      "title": "Lịch sử hình thành và phát triển",
+      "category": "history",
+      "language": "vi",
+      "source_id": "hust-02",
+      "source_path_or_url": "corpus/02-lich-su.md",
+      "pages": [
+        {
+          "id": "hust-02-01",
+          "heading": "Unit 01 — Thành lập năm 1956 và khóa học đầu tiên",
+          "start_line": 3,
+          "end_line": 10,
+          "normalized_content_characters": 1613,
+          "source": "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html",
+            "https://hust.edu.vn/vi/about/tong-quan.html"
+          ],
+          "source_type": "institutional"
+        },
+        {
+          "id": "hust-02-02",
+          "heading": "Unit 02 — Chiến tranh, sơ tán và đóng góp kỹ thuật",
+          "start_line": 12,
+          "end_line": 19,
+          "normalized_content_characters": 1614,
+          "source": "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html"
+          ],
+          "source_type": "institutional"
+        },
+        {
+          "id": "hust-02-03",
+          "heading": "Unit 03 — Phát triển sau năm 1975 và chuyển đổi mô hình",
+          "start_line": 21,
+          "end_line": 28,
+          "normalized_content_characters": 1614,
+          "source": "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html",
+            "https://hust.edu.vn/vi/tuyen-sinh/dai-hoc/thong-tin-tuyen-sinh-dai-hoc-nam-2026-651881.html"
+          ],
+          "source_type": "institutional"
+        }
+      ]
+    },
+    {
+      "title": "Sứ mạng, tầm nhìn và giá trị",
+      "category": "strategy",
+      "language": "vi",
+      "source_id": "hust-03",
+      "source_path_or_url": "corpus/03-su-mang-tam-nhin.md",
+      "pages": [
+        {
+          "id": "hust-03-01",
+          "heading": "Unit 01 — Sứ mạng của Đại học Bách khoa Hà Nội",
+          "start_line": 3,
+          "end_line": 10,
+          "normalized_content_characters": 1757,
+          "source": "https://hust.edu.vn/vi/about/su-mang-tam-nhin-gia-tri-cot-loi-va-chinh-sach-chat-luong.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/about/su-mang-tam-nhin-gia-tri-cot-loi-va-chinh-sach-chat-luong.html"
+          ],
+          "source_type": "institutional"
+        },
+        {
+          "id": "hust-03-02",
+          "heading": "Unit 02 — Tầm nhìn đến 2035 và năm 2045",
+          "start_line": 12,
+          "end_line": 19,
+          "normalized_content_characters": 1677,
+          "source": "https://hust.edu.vn/vi/about/su-mang-tam-nhin-gia-tri-cot-loi-va-chinh-sach-chat-luong.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/about/su-mang-tam-nhin-gia-tri-cot-loi-va-chinh-sach-chat-luong.html"
+          ],
+          "source_type": "institutional"
+        },
+        {
+          "id": "hust-03-03",
+          "heading": "Unit 03 — Giá trị cốt lõi và chất lượng",
+          "start_line": 21,
+          "end_line": 28,
+          "normalized_content_characters": 1859,
+          "source": "https://hust.edu.vn/vi/about/su-mang-tam-nhin-gia-tri-cot-loi-va-chinh-sach-chat-luong.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/about/su-mang-tam-nhin-gia-tri-cot-loi-va-chinh-sach-chat-luong.html",
+            "https://hust.edu.vn/vi/news/kiem-dinh-xep-hang/chuan-hoa-hoat-dong-giam-sat-ra-soat-va-cai-tien-chuong-trinh-dao-tao-656106.html"
+          ],
+          "source_type": "institutional"
+        }
+      ]
+    },
+    {
+      "title": "Ngành và chương trình đào tạo",
+      "category": "programs",
+      "language": "vi",
+      "source_id": "hust-04",
+      "source_path_or_url": "corpus/04-nganh-chuong-trinh.md",
+      "pages": [
+        {
+          "id": "hust-04-01",
+          "heading": "Unit 01 — Danh mục dự kiến tuyển sinh năm 2026",
+          "start_line": 3,
+          "end_line": 10,
+          "normalized_content_characters": 1626,
+          "source": "https://hust.edu.vn/vi/tuyen-sinh/nganh-tuyen-sinh/cac-nganh-chuong-trinh-tuyen-sinh-dai-hoc-nam-2026-651865.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/tuyen-sinh/nganh-tuyen-sinh/cac-nganh-chuong-trinh-tuyen-sinh-dai-hoc-nam-2026-651865.html"
+          ],
+          "source_type": "admissions"
+        },
+        {
+          "id": "hust-04-02",
+          "heading": "Unit 02 — Năm chương trình mới được nêu trong phương án",
+          "start_line": 12,
+          "end_line": 19,
+          "normalized_content_characters": 1531,
+          "source": "https://hust.edu.vn/vi/tuyen-sinh/dai-hoc/thong-tin-tuyen-sinh-dai-hoc-nam-2026-651881.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/tuyen-sinh/dai-hoc/thong-tin-tuyen-sinh-dai-hoc-nam-2026-651881.html"
+          ],
+          "source_type": "admissions"
+        },
+        {
+          "id": "hust-04-03",
+          "heading": "Unit 03 — Nhóm trường thành viên và cách chọn ngành",
+          "start_line": 21,
+          "end_line": 28,
+          "normalized_content_characters": 1630,
+          "source": "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html",
+            "https://hust.edu.vn/vi/tuyen-sinh/nganh-tuyen-sinh/cac-nganh-chuong-trinh-tuyen-sinh-dai-hoc-nam-2026-651865.html"
+          ],
+          "source_type": "institutional"
+        }
+      ]
+    },
+    {
+      "title": "Tuyển sinh đại học năm 2026",
+      "category": "admissions",
+      "language": "vi",
+      "source_id": "hust-05",
+      "source_path_or_url": "corpus/05-tuyen-sinh.md",
+      "pages": [
+        {
+          "id": "hust-05-01",
+          "heading": "Unit 01 — Các phương thức tuyển sinh dự kiến",
+          "start_line": 3,
+          "end_line": 10,
+          "normalized_content_characters": 1626,
+          "source": "https://hust.edu.vn/vi/tuyen-sinh/dai-hoc/thong-tin-tuyen-sinh-dai-hoc-nam-2026-651881.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/tuyen-sinh/dai-hoc/thong-tin-tuyen-sinh-dai-hoc-nam-2026-651881.html"
+          ],
+          "source_type": "admissions"
+        },
+        {
+          "id": "hust-05-02",
+          "heading": "Unit 02 — Xét tuyển tài năng và bài thi TSA",
+          "start_line": 12,
+          "end_line": 19,
+          "normalized_content_characters": 1550,
+          "source": "https://hust.edu.vn/uploads/sys/tuyen-sinh/2023_06/thong-tin-tuyen-sinh-dai-hoc-2026f.pdf",
+          "source_urls": [
+            "https://hust.edu.vn/uploads/sys/tuyen-sinh/2023_06/thong-tin-tuyen-sinh-dai-hoc-2026f.pdf",
+            "https://hust.edu.vn/vi/tuyen-sinh/dai-hoc/thong-tin-tuyen-sinh-dai-hoc-nam-2026-651881.html",
+            "https://hust.edu.vn/vi/tuyen-sinh/dai-hoc/"
+          ],
+          "source_type": "admissions"
+        },
+        {
+          "id": "hust-05-03",
+          "heading": "Unit 03 — Danh mục chương trình, cập nhật và kiểm tra nguồn",
+          "start_line": 21,
+          "end_line": 28,
+          "normalized_content_characters": 1539,
+          "source": "https://hust.edu.vn/vi/tuyen-sinh/dai-hoc/thong-tin-tuyen-sinh-dai-hoc-nam-2026-651881.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/tuyen-sinh/dai-hoc/thong-tin-tuyen-sinh-dai-hoc-nam-2026-651881.html",
+            "https://hust.edu.vn/vi/tuyen-sinh/nganh-tuyen-sinh/cac-nganh-chuong-trinh-tuyen-sinh-dai-hoc-nam-2026-651865.html"
+          ],
+          "source_type": "admissions"
+        }
+      ]
+    },
+    {
+      "title": "Học phí và cách xác minh",
+      "category": "tuition",
+      "language": "vi",
+      "source_id": "hust-06",
+      "source_path_or_url": "corpus/06-hoc-phi.md",
+      "pages": [
+        {
+          "id": "hust-06-01",
+          "heading": "Unit 01 — Điều có thể xác nhận về học phí",
+          "start_line": 3,
+          "end_line": 10,
+          "normalized_content_characters": 1663,
+          "source": "https://hust.edu.vn/vi/ba-cong-khai/bao-cao-thuong-nien-nam-2025.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/tuyen-sinh/dai-hoc/",
+            "https://hust.edu.vn/vi/ba-cong-khai/bao-cao-thuong-nien-nam-2025.html"
+          ],
+          "source_type": "admissions"
+        },
+        {
+          "id": "hust-06-02",
+          "heading": "Unit 02 — Cách tìm đúng biểu phí và đọc điều kiện",
+          "start_line": 12,
+          "end_line": 19,
+          "normalized_content_characters": 1635,
+          "source": "https://hust.edu.vn/vi/tuyen-sinh/",
+          "source_urls": [
+            "https://hust.edu.vn/vi/tuyen-sinh/",
+            "https://hust.edu.vn/vi/ba-cong-khai/"
+          ],
+          "source_type": "admissions"
+        },
+        {
+          "id": "hust-06-03",
+          "heading": "Unit 03 — Học bổng, miễn giảm và hỗ trợ người học",
+          "start_line": 21,
+          "end_line": 28,
+          "normalized_content_characters": 1599,
+          "source": "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html",
+            "https://hust.edu.vn/vi/tuyen-sinh/"
+          ],
+          "source_type": "admissions"
+        }
+      ]
+    },
+    {
+      "title": "Các thế hệ nhà giáo và lãnh đạo",
+      "category": "faculty",
+      "language": "vi",
+      "source_id": "hust-07",
+      "source_path_or_url": "corpus/07-cac-the-he-nha-giao.md",
+      "pages": [
+        {
+          "id": "hust-07-01",
+          "heading": "Unit 01 — Những người đặt nền móng",
+          "start_line": 3,
+          "end_line": 10,
+          "normalized_content_characters": 1757,
+          "source": "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/about/tong-quan.html",
+            "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html",
+            "https://hust.edu.vn/vi/news/tin-tuc-su-kien/ngay-tro-ve-am-ap-cua-cac-the-he-cuu-giao-chuc-bach-khoa-656065.html"
+          ],
+          "source_type": "institutional"
+        },
+        {
+          "id": "hust-07-02",
+          "heading": "Unit 02 — Nhà giáo qua thời chiến và thời bao cấp",
+          "start_line": 12,
+          "end_line": 19,
+          "normalized_content_characters": 1697,
+          "source": "https://hust.edu.vn/vi/news/tin-tuc-su-kien/ngay-tro-ve-am-ap-cua-cac-the-he-cuu-giao-chuc-bach-khoa-656065.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/news/tin-tuc-su-kien/ngay-tro-ve-am-ap-cua-cac-the-he-cuu-giao-chuc-bach-khoa-656065.html"
+          ],
+          "source_type": "news"
+        },
+        {
+          "id": "hust-07-03",
+          "heading": "Unit 03 — Lãnh đạo tiền nhiệm, người kế thừa và giảng viên hiện nay",
+          "start_line": 21,
+          "end_line": 28,
+          "normalized_content_characters": 1712,
+          "source": "https://hust.edu.vn/vi/news/tin-tuc-su-kien/gap-mat-tri-an-cac-the-he-nguyen-lanh-dao-dai-hoc-bach-khoa-ha-noi-va-khat-vong-vuon-tam-656071.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/news/tin-tuc-su-kien/gap-mat-tri-an-cac-the-he-nguyen-lanh-dao-dai-hoc-bach-khoa-ha-noi-va-khat-vong-vuon-tam-656071.html",
+            "https://hust.edu.vn/vi/news/tin-tuc-su-kien/ngay-tro-ve-am-ap-cua-cac-the-he-cuu-giao-chuc-bach-khoa-656065.html",
+            "https://hust.edu.vn/vi/news/kiem-dinh-xep-hang/chuan-hoa-hoat-dong-giam-sat-ra-soat-va-cai-tien-chuong-trinh-dao-tao-656106.html"
+          ],
+          "source_type": "news"
+        }
+      ]
+    },
+    {
+      "title": "Nghiên cứu và hợp tác",
+      "category": "research",
+      "language": "vi",
+      "source_id": "hust-08",
+      "source_path_or_url": "corpus/08-nghien-cuu.md",
+      "pages": [
+        {
+          "id": "hust-08-01",
+          "heading": "Unit 01 — Kết nối nghiên cứu quốc tế với Nhật Bản",
+          "start_line": 3,
+          "end_line": 10,
+          "normalized_content_characters": 1565,
+          "source": "https://hust.edu.vn/vi/news/hoat-dong-chung/bach-khoa-ha-noi-tang-cuong-ket-noi-nghien-cuu-quoc-te-tai-nhat-ban-656110.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/news/hoat-dong-chung/bach-khoa-ha-noi-tang-cuong-ket-noi-nghien-cuu-quoc-te-tai-nhat-ban-656110.html"
+          ],
+          "source_type": "news"
+        },
+        {
+          "id": "hust-08-02",
+          "heading": "Unit 02 — Hợp tác tài trợ với Asahi Glass Foundation",
+          "start_line": 12,
+          "end_line": 19,
+          "normalized_content_characters": 1641,
+          "source": "https://hust.edu.vn/vi/news/hoat-dong-chung/bach-khoa-ha-noi-tang-cuong-ket-noi-nghien-cuu-quoc-te-tai-nhat-ban-656110.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/news/hoat-dong-chung/bach-khoa-ha-noi-tang-cuong-ket-noi-nghien-cuu-quoc-te-tai-nhat-ban-656110.html",
+            "https://hust.edu.vn/en/cooperation/scholarship/asahi-glass-foundation-hanoi-university-of-science-and-technology-research-grant-2027-651446.html"
+          ],
+          "source_type": "news"
+        },
+        {
+          "id": "hust-08-03",
+          "heading": "Unit 03 — Hợp tác nghiên cứu gắn với bài toán thực tiễn",
+          "start_line": 21,
+          "end_line": 28,
+          "normalized_content_characters": 1602,
+          "source": "https://hust.edu.vn/vi/news/tin-tuc-su-kien/dai-hoc-bach-khoa-ha-noi-hop-tac-chien-luoc-voi-trung-tam-du-lieu-quoc-gia-thuc-day-cds-va-phat-trien-nguon-nhan-luc-cnc-656105.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/news/tin-tuc-su-kien/dai-hoc-bach-khoa-ha-noi-hop-tac-chien-luoc-voi-trung-tam-du-lieu-quoc-gia-thuc-day-cds-va-phat-trien-nguon-nhan-luc-cnc-656105.html"
+          ],
+          "source_type": "news"
+        }
+      ]
+    },
+    {
+      "title": "Thông báo và tin gần đây",
+      "category": "news",
+      "language": "vi",
+      "source_id": "hust-09",
+      "source_path_or_url": "corpus/09-tin-moi.md",
+      "pages": [
+        {
+          "id": "hust-09-01",
+          "heading": "Unit 01 — Di dời nguyên khối cổng Parabol",
+          "start_line": 3,
+          "end_line": 10,
+          "normalized_content_characters": 1561,
+          "source": "https://hust.edu.vn/vi/news/hoat-dong-chung/di-doi-cong-parabol-bao-ton-bieu-tuong-dai-hoc-bach-khoa-ha-noi-656109.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/news/hoat-dong-chung/di-doi-cong-parabol-bao-ton-bieu-tuong-dai-hoc-bach-khoa-ha-noi-656109.html"
+          ],
+          "source_type": "news"
+        },
+        {
+          "id": "hust-09-02",
+          "heading": "Unit 02 — Thành tích nghiên cứu khoa học sinh viên năm 2026",
+          "start_line": 12,
+          "end_line": 19,
+          "normalized_content_characters": 1718,
+          "source": "https://hust.edu.vn/vi/news/khoa-hoc-cong-nghe-dmst/dai-hoc-bach-khoa-ha-noi-boi-thu-giai-thuong-khoa-hoc-va-cong-nghe-danh-cho-sinh-vien-nam-2026-656111.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/news/khoa-hoc-cong-nghe-dmst/dai-hoc-bach-khoa-ha-noi-boi-thu-giai-thuong-khoa-hoc-va-cong-nghe-danh-cho-sinh-vien-nam-2026-656111.html"
+          ],
+          "source_type": "news"
+        },
+        {
+          "id": "hust-09-03",
+          "heading": "Unit 03 — Tin gần đây và ý nghĩa của ngày cập nhật",
+          "start_line": 21,
+          "end_line": 28,
+          "normalized_content_characters": 1580,
+          "source": "https://hust.edu.vn/vi/news/hoat-dong-chung/di-doi-cong-parabol-bao-ton-bieu-tuong-dai-hoc-bach-khoa-ha-noi-656109.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/news/hoat-dong-chung/di-doi-cong-parabol-bao-ton-bieu-tuong-dai-hoc-bach-khoa-ha-noi-656109.html",
+            "https://hust.edu.vn/vi/news/hoat-dong-chung/bach-khoa-ha-noi-tang-cuong-ket-noi-nghien-cuu-quoc-te-tai-nhat-ban-656110.html",
+            "https://hust.edu.vn/vi/news/khoa-hoc-cong-nghe-dmst/dai-hoc-bach-khoa-ha-noi-boi-thu-giai-thuong-khoa-hoc-va-cong-nghe-danh-cho-sinh-vien-nam-2026-656111.html"
+          ],
+          "source_type": "news"
+        }
+      ]
+    },
+    {
+      "title": "Xếp hạng và bảo đảm chất lượng",
+      "category": "quality",
+      "language": "vi",
+      "source_id": "hust-10",
+      "source_path_or_url": "corpus/10-xep-hang-va-bao-dam-chat-luong.md",
+      "pages": [
+        {
+          "id": "hust-10-01",
+          "heading": "Unit 01 — Kết quả QS Asia 2027",
+          "start_line": 3,
+          "end_line": 10,
+          "normalized_content_characters": 1589,
+          "source": "https://hust.edu.vn/vi/news/kiem-dinh-xep-hang/dai-hoc-bach-khoa-ha-noi-tang-39-bac-xep-hang-276-dai-hoc-chau-a-nam-2027-656100.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/news/kiem-dinh-xep-hang/dai-hoc-bach-khoa-ha-noi-tang-39-bac-xep-hang-276-dai-hoc-chau-a-nam-2027-656100.html"
+          ],
+          "source_type": "news"
+        },
+        {
+          "id": "hust-10-02",
+          "heading": "Unit 02 — Giám sát và cải tiến chương trình đào tạo",
+          "start_line": 12,
+          "end_line": 19,
+          "normalized_content_characters": 1664,
+          "source": "https://hust.edu.vn/vi/news/kiem-dinh-xep-hang/chuan-hoa-hoat-dong-giam-sat-ra-soat-va-cai-tien-chuong-trinh-dao-tao-656106.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/news/kiem-dinh-xep-hang/chuan-hoa-hoat-dong-giam-sat-ra-soat-va-cai-tien-chuong-trinh-dao-tao-656106.html"
+          ],
+          "source_type": "news"
+        },
+        {
+          "id": "hust-10-03",
+          "heading": "Unit 03 — Đọc đúng số liệu xếp hạng và kiểm định",
+          "start_line": 21,
+          "end_line": 28,
+          "normalized_content_characters": 1561,
+          "source": "https://hust.edu.vn/vi/news/kiem-dinh-xep-hang/dai-hoc-bach-khoa-ha-noi-tang-39-bac-xep-hang-276-dai-hoc-chau-a-nam-2027-656100.html",
+          "source_urls": [
+            "https://hust.edu.vn/vi/news/kiem-dinh-xep-hang/dai-hoc-bach-khoa-ha-noi-tang-39-bac-xep-hang-276-dai-hoc-chau-a-nam-2027-656100.html",
+            "https://hust.edu.vn/vi/news/kiem-dinh-xep-hang/chuan-hoa-hoat-dong-giam-sat-ra-soat-va-cai-tien-chuong-trinh-dao-tao-656106.html"
+          ],
+          "source_type": "news"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Thông tin tuyển sinh chính thức 2026",
+      "source_path_or_url": "https://hust.edu.vn/uploads/sys/tuyen-sinh/2023_06/thong-tin-tuyen-sinh-dai-hoc-2026f.pdf",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Tổng quan HUST",
+      "source_path_or_url": "https://hust.edu.vn/vi/about/tong-quan.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Lịch sử hình thành, phát triển",
+      "source_path_or_url": "https://hust.edu.vn/vi/about/lich-su-hinh-thanh-phat-trien-21686.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Ngày trở về của các thế hệ cựu giáo chức",
+      "source_path_or_url": "https://hust.edu.vn/vi/news/tin-tuc-su-kien/ngay-tro-ve-am-ap-cua-cac-the-he-cuu-giao-chuc-bach-khoa-656065.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Thông tin tuyển sinh 2026",
+      "source_path_or_url": "https://hust.edu.vn/vi/tuyen-sinh/dai-hoc/thong-tin-tuyen-sinh-dai-hoc-nam-2026-651881.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Sứ mạng, tầm nhìn, giá trị cốt lõi và chính sách chất lượng",
+      "source_path_or_url": "https://hust.edu.vn/vi/about/su-mang-tam-nhin-gia-tri-cot-loi-va-chinh-sach-chat-luong.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Tập huấn rà soát chương trình đào tạo",
+      "source_path_or_url": "https://hust.edu.vn/vi/news/kiem-dinh-xep-hang/chuan-hoa-hoat-dong-giam-sat-ra-soat-va-cai-tien-chuong-trinh-dao-tao-656106.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Các ngành/chương trình tuyển sinh đại học năm 2026",
+      "source_path_or_url": "https://hust.edu.vn/vi/tuyen-sinh/nganh-tuyen-sinh/cac-nganh-chuong-trinh-tuyen-sinh-dai-hoc-nam-2026-651865.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Cổng tuyển sinh đại học",
+      "source_path_or_url": "https://hust.edu.vn/vi/tuyen-sinh/dai-hoc/",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Báo cáo thường niên năm 2025",
+      "source_path_or_url": "https://hust.edu.vn/vi/ba-cong-khai/bao-cao-thuong-nien-nam-2025.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Thông tin tuyển sinh HUST",
+      "source_path_or_url": "https://hust.edu.vn/vi/tuyen-sinh/",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Công khai và báo cáo thường niên",
+      "source_path_or_url": "https://hust.edu.vn/vi/ba-cong-khai/",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Gặp mặt nguyên lãnh đạo HUST",
+      "source_path_or_url": "https://hust.edu.vn/vi/news/tin-tuc-su-kien/gap-mat-tri-an-cac-the-he-nguyen-lanh-dao-dai-hoc-bach-khoa-ha-noi-va-khat-vong-vuon-tam-656071.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Bách khoa Hà Nội tăng cường kết nối nghiên cứu quốc tế tại Nhật Bản",
+      "source_path_or_url": "https://hust.edu.vn/vi/news/hoat-dong-chung/bach-khoa-ha-noi-tang-cuong-ket-noi-nghien-cuu-quoc-te-tai-nhat-ban-656110.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Thông tin quỹ Asahi Glass Foundation",
+      "source_path_or_url": "https://hust.edu.vn/en/cooperation/scholarship/asahi-glass-foundation-hanoi-university-of-science-and-technology-research-grant-2027-651446.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Thỏa thuận với Trung tâm Dữ liệu Quốc gia",
+      "source_path_or_url": "https://hust.edu.vn/vi/news/tin-tuc-su-kien/dai-hoc-bach-khoa-ha-noi-hop-tac-chien-luoc-voi-trung-tam-du-lieu-quoc-gia-thuc-day-cds-va-phat-trien-nguon-nhan-luc-cnc-656105.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Di dời cổng Parabol, bảo tồn biểu tượng HUST",
+      "source_path_or_url": "https://hust.edu.vn/vi/news/hoat-dong-chung/di-doi-cong-parabol-bao-ton-bieu-tuong-dai-hoc-bach-khoa-ha-noi-656109.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "Giải thưởng khoa học và công nghệ sinh viên HUST 2026",
+      "source_path_or_url": "https://hust.edu.vn/vi/news/khoa-hoc-cong-nghe-dmst/dai-hoc-bach-khoa-ha-noi-boi-thu-giai-thuong-khoa-hoc-va-cong-nghe-danh-cho-sinh-vien-nam-2026-656111.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    },
+    {
+      "title": "HUST tăng 39 bậc, xếp hạng 276 QS Asia 2027",
+      "source_path_or_url": "https://hust.edu.vn/vi/news/kiem-dinh-xep-hang/dai-hoc-bach-khoa-ha-noi-tang-39-bac-xep-hang-276-dai-hoc-chau-a-nam-2027-656100.html",
+      "accessed_at": "2026-11-13",
+      "license_or_permission": "Học viên xác nhận được dùng bản tóm lược và trace cho bài nộp. Chưa có điều khoản hoặc giấy phép công khai của nguồn gốc được lưu trong repo."
+    }
+  ]
+}

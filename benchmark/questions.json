@@ -1,0 +1,217 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "HUST được thành lập vào ngày nào?",
+    "expected_answer": "Ngày 6/3/1956.",
+    "gold_source_id": "hust-02",
+    "gold_page": "hust-02-01",
+    "evidence_quote": "Nghị định số 147/NĐ ngày 6/3/1956"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "Khóa đầu tiên của trường có bao nhiêu sinh viên chính quy?",
+    "expected_answer": "850 sinh viên chính quy.",
+    "gold_source_id": "hust-02",
+    "gold_page": "hust-02-01",
+    "evidence_quote": "khai giảng khóa 1 với 850 sinh viên chính quy"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo tài liệu tuyển sinh chính thức, trụ sở chính HUST nằm ở địa chỉ nào?",
+    "expected_answer": "Số 1 Đại Cồ Việt, phường Bạch Mai, thành phố Hà Nội.",
+    "filter": {
+      "source_type": "admissions"
+    },
+    "gold_source_id": "hust-01",
+    "gold_page": "hust-01-01",
+    "evidence_quote": "Theo thông tin tuyển sinh 2026, trụ sở chính ở số 1 Đại Cồ Việt, phường Bạch Mai, thành phố Hà Nội."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "direct",
+    "question": "Có bao nhiêu kỹ sư khóa đầu được cấp bằng vào tháng 10 năm 1961?",
+    "expected_answer": "633 kỹ sư.",
+    "gold_source_id": "hust-02",
+    "gold_page": "hust-02-02",
+    "evidence_quote": "cấp bằng cho 633 kỹ sư khóa đầu"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Trong năm 1965, trường phải sơ tán tới tỉnh nào?",
+    "expected_answer": "Lạng Sơn.",
+    "gold_source_id": "hust-02",
+    "gold_page": "hust-02-02",
+    "evidence_quote": "di chuyển lên Lạng Sơn"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "Thủ tướng quyết định chuyển Trường Đại học Bách khoa Hà Nội thành Đại học Bách khoa Hà Nội khi nào?",
+    "expected_answer": "Ngày 2/12/2022.",
+    "gold_source_id": "hust-02",
+    "gold_page": "hust-02-03",
+    "evidence_quote": "ngày 2/12/2022 Thủ tướng quyết định chuyển Trường Đại học Bách khoa Hà Nội thành Đại học Bách khoa Hà Nội."
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "direct",
+    "question": "Sứ mạng của HUST nêu những nhóm hoạt động trọng tâm nào?",
+    "expected_answer": "Phát triển con người, đào tạo nhân lực chất lượng cao, nghiên cứu khoa học, sáng tạo công nghệ, chuyển giao tri thức và phục vụ xã hội, đất nước.",
+    "gold_source_id": "hust-03",
+    "gold_page": "hust-03-01",
+    "evidence_quote": "phát triển con người, đào tạo nhân lực chất lượng cao; nghiên cứu khoa học, sáng tạo công nghệ và chuyển giao tri thức; phục vụ tốt nhất xã hội và đất nước."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo chiến lược, trường đặt mục tiêu xếp hạng châu Á nào cho năm 2035?",
+    "expected_answer": "Thuộc nhóm 100–150 đại học hàng đầu châu Á theo các bảng xếp hạng quốc tế uy tín.",
+    "filter": {
+      "source_type": "institutional"
+    },
+    "gold_source_id": "hust-03",
+    "gold_page": "hust-03-02",
+    "evidence_quote": "thuộc nhóm 100–150 đại học hàng đầu châu Á theo các bảng xếp hạng quốc tế uy tín"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "direct",
+    "question": "Bốn giá trị cốt lõi mà HUST công bố là gì?",
+    "expected_answer": "Trách nhiệm, Sáng tạo, Chính trực và Xuất sắc.",
+    "gold_source_id": "hust-03",
+    "gold_page": "hust-03-03",
+    "evidence_quote": "Bốn giá trị cốt lõi HUST công bố là Trách nhiệm, Sáng tạo, Chính trực và Xuất sắc"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "direct",
+    "question": "HUST dự kiến tuyển sinh bao nhiêu chương trình đào tạo đại học năm 2026?",
+    "expected_answer": "68 chương trình.",
+    "gold_source_id": "hust-04",
+    "gold_page": "hust-04-01",
+    "evidence_quote": "năm 2026 trường dự kiến tuyển sinh 68 chương trình đào tạo đại học"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "direct",
+    "question": "Phương án tuyển sinh 2026 nêu có bao nhiêu chương trình mới?",
+    "expected_answer": "Năm chương trình mới.",
+    "gold_source_id": "hust-04",
+    "gold_page": "hust-04-02",
+    "evidence_quote": "Thông tin tuyển sinh dự kiến năm 2026 của HUST công bố năm chương trình mới"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "direct",
+    "question": "Ba phương thức tuyển sinh chính dự kiến năm 2026 là gì?",
+    "expected_answer": "Xét tuyển tài năng, xét theo kết quả TSA và xét theo kết quả thi tốt nghiệp THPT năm 2026.",
+    "gold_source_id": "hust-05",
+    "gold_page": "hust-05-01",
+    "evidence_quote": "ba phương thức chính: xét tuyển tài năng; xét tuyển dựa trên kết quả bài thi Đánh giá tư duy (TSA); và xét tuyển dựa trên kết quả kỳ thi tốt nghiệp trung học phổ thông năm 2026"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "conditional",
+    "question": "TSA năm nào được nhắc đến trong phương thức xét tuyển của năm 2026?",
+    "expected_answer": "Kết quả bài thi TSA năm 2025 và năm 2026.",
+    "gold_source_id": "hust-05",
+    "gold_page": "hust-05-02",
+    "evidence_quote": "bài thi TSA năm 2025 và năm 2026"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "caveat",
+    "question": "Corpus này có xác nhận một mức học phí chính quy hiện hành cho năm học 2026–2027 không?",
+    "expected_answer": "Không. Chưa xác minh được bảng học phí chính quy năm học 2026–2027 trong các nguồn được trích.",
+    "gold_source_id": "hust-06",
+    "gold_page": "hust-06-01",
+    "evidence_quote": "chưa xác minh được một bảng mức thu học phí đại học chính quy cho năm học 2026–2027"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Khi đọc thông tin tuyển sinh để kiểm tra học phí, cần tra mức thu theo những yếu tố nào?",
+    "expected_answer": "Bậc đào tạo, chương trình, năm học, số tín chỉ và các khoản thu liên quan.",
+    "filter": {
+      "source_type": "admissions"
+    },
+    "gold_source_id": "hust-06",
+    "gold_page": "hust-06-01",
+    "evidence_quote": "Học phí cần được gắn với bậc đào tạo, chương trình, năm học, số tín chỉ và các khoản thu liên quan."
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "type": "direct",
+    "question": "GS. Nguyễn Xuân Lạc đã tự học ngoại ngữ nào để viết giáo trình gì?",
+    "expected_answer": "Tiếng Nga, để viết giáo trình Nguyên lý máy.",
+    "gold_source_id": "hust-07",
+    "gold_page": "hust-07-02",
+    "evidence_quote": "tự học tiếng Nga để biên soạn giáo trình Nguyên lý máy"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Theo tin về hợp tác với Trung tâm Dữ liệu Quốc gia, HUST ký thỏa thuận vào ngày nào?",
+    "expected_answer": "Ngày 5/11/2026.",
+    "gold_source_id": "hust-08",
+    "gold_page": "hust-08-03",
+    "evidence_quote": "Ngày 5/11/2026, HUST và Trung tâm Dữ liệu Quốc gia ký thỏa thuận hợp tác",
+    "filter": {
+      "source_type": "news"
+    }
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Theo tin giải thưởng nghiên cứu sinh viên 2026, HUST có bao nhiêu giải ở từng mức?",
+    "expected_answer": "2 Nhất, 3 Nhì, 6 Ba và 4 Khuyến khích.",
+    "gold_source_id": "hust-09",
+    "gold_page": "hust-09-02",
+    "evidence_quote": "2 giải Nhất, 3 giải Nhì, 6 giải Ba và 4 giải Khuyến khích",
+    "filter": {
+      "source_type": "news"
+    }
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "type": "direct",
+    "question": "Danh tiếng học thuật chiếm trọng số bao nhiêu trong QS Asia 2027 theo bài HUST?",
+    "expected_answer": "30%.",
+    "gold_source_id": "hust-10",
+    "gold_page": "hust-10-01",
+    "evidence_quote": "Danh tiếng học thuật có trọng số 30%"
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "type": "conditional",
+    "question": "Theo phương án di dời cổng Parabol, thời gian di dời và tổng thời gian tu sửa, hoàn trả dự kiến lần lượt là bao lâu?",
+    "expected_answer": "Di dời ba tuần, tổng thời gian khoảng một tháng.",
+    "gold_source_id": "hust-09",
+    "gold_page": "hust-09-01",
+    "evidence_quote": "công tác di dời dự kiến hoàn thành trong ba tuần, tổng thời gian tu sửa và hoàn trả nguyên trạng khoảng một tháng"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "corpus_units": 30,
+  "corpus_characters": 50777,
+  "questions": 20,
+  "started_at": "2026-11-13T22:18:11+07:00",
+  "python_version": "3.12.10",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "embedding_max_tokens": 512,
+  "dimensions": 384,
+  "qdrant_client_version": "1.20.0",
+  "sentence_transformers_version": "5.1.2",
+  "transformers_version": "4.57.3",
+  "torch_version": "2.9.1",
+  "huggingface_hub_version": "0.36.0",
+  "vector_store": "Qdrant local persistent mode",
+  "distance": "cosine",
+  "filter": "source_type, applied only in strategy C when the benchmark query provides it",
+  "selected_on_dev": "A",
+  "inputs_sha256": {
+    "data/manifest.json": "51984b96724232f787ea28afebecfcfba0421e6abe309413dbddf610c7b3e3c1",
+    "benchmark/questions.json": "1cbcd7775f39a6ad10bf11569ff0b81150ff5a70fd472e4c4a71f7bdc3e1eefe",
+    "benchmark/protocol.json": "40e022885217ad30f4003fe4ea74f70c85a8ffcd662fe15767ef3f3b884715be",
+    "data/corpus/01-tong-quan.md": "cc96ef78f4bb704ef6fb84bbd1d5c285eab5e094e0ff9f47b8a91415391c25f1",
+    "data/corpus/02-lich-su.md": "aed9bec7bd6cd123f5d346d68ab0dd00f941e5b91cf234ee892d81fa8391d84c",
+    "data/corpus/03-su-mang-tam-nhin.md": "8a6a62497b60e1d1b98cc4471b08315550333f35b0d391a321dde6245cf44f07",
+    "data/corpus/04-nganh-chuong-trinh.md": "bce76eb07dfe83db72836772181fe44f41cb195e8b0c40fe0e50d492ecac74c5",
+    "data/corpus/05-tuyen-sinh.md": "77cddbc30a948500fe3ef7c192fce3c3c56c4e597a2cdce328e197ae1136aa03",
+    "data/corpus/06-hoc-phi.md": "1d8504552292a3bddb727d543bea6e80e1713ad3c94e2c634b7df82861e0c4df",
+    "data/corpus/07-cac-the-he-nha-giao.md": "ee68f084281e16b198638304eb813ca20876c37339d531e75a17a0b9922aa0bb",
+    "data/corpus/08-nghien-cuu.md": "a32f74e94ccfc15554280da9c7db0e0e20dd36b1344f3f8f5c0da8a164ed2d05",
+    "data/corpus/09-tin-moi.md": "3b913ac1b2ee1da47335d46b4930e528c6e5f7432a913808d5e931cdefeeec26",
+    "data/corpus/10-xep-hang-va-bao-dam-chat-luong.md": "cce9f90403df10f094f6d0d3454e489fd4a65a3e783bb90ef7dd0a6a0c2f2fe3"
+  },
+  "total_seconds": 19.536,
+  "strategies": {
+    "A": {
+      "chunks": 90,
+      "mean_characters": 630.66,
+      "min_characters": 388,
+      "max_characters": 700,
+      "total_characters": 56759,
+      "total_tokens": 14410,
+      "min_tokens": 96,
+      "max_tokens": 201,
+      "ingest_seconds": 3.163
+    },
+    "B": {
+      "chunks": 33,
+      "mean_characters": 1538.52,
+      "min_characters": 574,
+      "max_characters": 1793,
+      "total_characters": 50771,
+      "total_tokens": 12746,
+      "min_tokens": 140,
+      "max_tokens": 462,
+      "ingest_seconds": 2.898
+    },
+    "C": {
+      "chunks": 33,
+      "mean_characters": 1538.52,
+      "min_characters": 574,
+      "max_characters": 1793,
+      "total_characters": 50771,
+      "total_tokens": 12746,
+      "min_tokens": 140,
+      "max_tokens": 462,
+      "ingest_seconds": 2.661
+    }
+  },
+  "cost": "0 API cost; inference runs locally (electricity/hardware not priced)"
+}
